@@ -1,0 +1,107 @@
+{
+    "id": 921572,
+    "url": "https://www.locautorent.com/en/renting_reservation/api/v1/step2/22566010-11d6-4403-8a7d-e29f56a0b291/",
+    "uuid": "22566010-11d6-4403-8a7d-e29f56a0b291",
+    "reservation_session": "aede6a0b-f871-4f4d-bf84-d208f03be9e6",
+    "response_data": {
+        "data": {
+            "vehicles": {
+                "3": {
+                    "id": 3,
+                    "order": 2,
+                    "category": "CE",
+                    "type": 1,
+                    "name": "Opel Corsa",
+                    "image": "https://d2hm013y393d5t.cloudfront.net/vehicles/ce.jpg",
+                    "hasSimilar": true,
+                    "segment": "Economic",
+                    "upsell": "DE",
+                    "categoryDescription": "Economica 5 porte Elefast",
+                    "fullDescription": "SKIP THE QUEUE AND OPEN THIS CAR WITH A TOUCH!",
+                    "passengers": 5,
+                    "fuel": "Petrol/Diesel",
+                    "transmission": 1,
+                    "clima": false,
+                    "doors": 5,
+                    "baggage": 2,
+                    "elefast": true,
+                    "minAge": 19,
+                    "creditCard": 1,
+                    "packages": {
+                        "A": {
+                            "code": "ECMREF",
+                            "exemptionDeposit": "400",
+                            "exemptionDepositWithCoverage": "400",
+                            "exemptionDamage": "750",
+                            "exemptionTheft": "1200",
+                            "exemptionReduced": 0,
+                            "optionals": {
+                                "33": {
+                                    "id": 33,
+                                    "amount": 0,
+                                    "price": 12.2,
+                                    "unit": "Day",
+                                    "maxPrice": 0.0,
+                                    "maxDays": 18,
+                                    "givenQuantity": 5,
+                                    "includedInRate": false,
+                                    "guaranteedInd": false
+                                }
+                            },
+                            "benefits": {
+                                "66": {
+                                    "id": 66,
+                                    "linked": true,
+                                    "available": false
+                                }
+                            },
+                            "prices": {
+                                "price": "117.4300000000000068212102633",
+                                "priceOnline": "105.6870000000000061390892370",
+                                "discountOnline": "0.10"
+                            },
+                            "status": "Available",
+                            "coupon_errors": false
+                        }
+                    }
+                }
+            }
+        },
+        "optionals": {
+            "33": {
+                "id": 33,
+                "vehicle_type": 1,
+                "icon": "https://d2hm013y393d5t.cloudfront.net/vehicles/33_NXE3p1b_D3LTkJ6.svg",
+                "name": "Car Body Package",
+                "max": 1,
+                "shortDescription": "Eliminates the excess in cases of damage to the body of the vehicle and the theft excess, as per General Rental Conditions",
+                "fullDescription": "Eliminates the excess in cases of damage to the body of the vehicle and the theft excess. Car Body Package does not cover damage to lights, glass, tires, rims, wheels and undercarriage of the vehicle, as well as damage to mechanical parts and interior.\r\nRenter is always fully responsible of the damage caused to Lessor, regardless of the protection selected, when violating the prescriptions of art. 9 General Rental Conditions.",
+                "excess_damage": {
+                    "id": 1,
+                    "name": "Franchigia danni car body package testo gestito da rosetta",
+                    "typology": 1,
+                    "vehicle_type": 1,
+                    "note": "Franchigia danni car body package testo gestito da rosetta",
+                    "amount_in_euro": 9999
+                },
+                "excess_theft": {
+                    "id": 2,
+                    "name": "Franchigia furto car body package testo gestito da rosetta",
+                    "typology": 2,
+                    "vehicle_type": 1,
+                    "note": "Franchigia furto car body package testo gestito da rosetta",
+                    "amount_in_euro": 9999
+                }
+            }
+        },
+        "benefits": {
+            "66": {
+                "id": 66,
+                "label": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus reiciendis omnis cumque fugiat, eveniet similique aperiam est aliquid voluptas deleniti ipsa dolores vero unde nesciunt sed odio rerum magnam possimus.",
+                "isNew": true
+            }
+        }
+    },
+    "ageRange": 3
+}
